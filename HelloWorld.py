@@ -13,4 +13,18 @@ sudoku=[
     [9,0,0,3,0,0,5,0,0]
 ]
 
-print (5//3,5/3,5%3)
+#print (5//3,5/3,5%3)
+
+l=[1,3,2,0,0,5,0,6]
+
+for j in range(len(l)):
+    for i in range(len(l) - 1):
+        if (l[i] == 0):
+            c = l[i + 1]
+            l[i + 1] = l[i]
+            l[i] = c
+
+print(l)
+
+
+
