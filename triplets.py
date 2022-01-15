@@ -9,10 +9,10 @@ def func_triplets(l):
                         c=[l[i],l[j],l[k]]
                         for m in range(len(c)-1):
                             for n in range(len(c)-1):
-                                if c[m]<c[n]:
+                                if c[n]>c[n+1]:
                                     x=c[n]
-                                    c[n]=c[m]
-                                    c[m]=x
+                                    c[n]=c[n+1]
+                                    c[n+1]=x
                         triplets.append(c)
 
 
