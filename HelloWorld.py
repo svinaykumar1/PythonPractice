@@ -26,5 +26,9 @@ for j in range(len(l)):
 
 print(l)
 
+str1="HelloWorld"
+
+for i in enumerate(s):
+    print(i)
 
 
