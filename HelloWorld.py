@@ -26,9 +26,19 @@ for j in range(len(l)):
 
 print(l)
 
-str1="HelloWorld"
+str1="Hello World how are you"
 
-for i in enumerate(s):
+for i in str1.split(' '):
     print(i)
+
+l=[1,1,1,2,2,2,3,4,6,8,8,9]
+x=[]
+for i in l:
+    if i not in x:
+        x.append(i)
+
+print(x)
+
+
 
 

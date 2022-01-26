@@ -1,5 +1,5 @@
-#l=[2,4,6,3,9,11,12,10,13,18,25,23,24,26,29,28,27,19,20,22,21]
-l=[2,4,6,3,9,11,12,10,13,18,25,23,14]
+l=[2,4,6,3,9,11,12,10,13,18,25,23,24,26,29,28,27,19,20,22,21]
+#l=[2,4,6,3,9,11,12,10,13,18,25,23,14]
 
 def sort_list(l):
     for i in range(len(l)-1):
@@ -33,8 +33,8 @@ def max_cons_ele_seq(l):
             cons_arr = []
 
     if (len(cons_arr) > len(final_list)):
-        final_list = cons_arr
-        final_len = length1
+         final_list = cons_arr
+         final_len = length1
     length1 = 0
     cons_arr = []
     return final_list,final_len
