@@ -39,6 +39,12 @@ for i in l:
 
 print(x)
 
+s="   ****Hello world how are you doing*****   "
+#print(s)
+print(s.strip(),'\n',s.strip().strip('*'))
+print(s.find('o'))
+print(s.count('o'))
+print(s)
 
 
 
