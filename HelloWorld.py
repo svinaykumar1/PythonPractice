@@ -138,3 +138,12 @@ b.add_right_node(d)
 (a,b,_,_)=(5,6,7,8)
 
 print(a,b,_)
+
+import numpy as np
+x=np.ones(20).reshape(4,5)
+
+#print(s)
+x[0][3]=5
+
+if (5 in x[:1]):
+    print(x[:1])
